@@ -53,11 +53,13 @@ public class CekIdealTubuh extends javax.swing.JFrame {
         jRadioButton2 = new javax.swing.JRadioButton();
         nama = new javax.swing.JTextField();
         hasil = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
         jLabel13.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Berat     badan   ideal    anda    adalah");
         getContentPane().add(jLabel13);
         jLabel13.setBounds(50, 300, 200, 26);
@@ -65,11 +67,13 @@ public class CekIdealTubuh extends javax.swing.JFrame {
         saran.setBounds(10, 430, 380, 30);
 
         jLabel14.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
         jLabel14.setText("cm");
         getContentPane().add(jLabel14);
         jLabel14.setBounds(350, 80, 20, 20);
 
         jLabel9.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Tinggi");
         getContentPane().add(jLabel9);
         jLabel9.setBounds(60, 120, 40, 26);
@@ -77,21 +81,24 @@ public class CekIdealTubuh extends javax.swing.JFrame {
         tinggi.setBounds(150, 120, 50, 30);
 
         jLabel15.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("cm");
         getContentPane().add(jLabel15);
         jLabel15.setBounds(210, 120, 20, 20);
 
         jLabel12.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Berat Badan");
         getContentPane().add(jLabel12);
         jLabel12.setBounds(40, 210, 80, 26);
         getContentPane().add(ideal);
-        ideal.setBounds(270, 300, 50, 30);
+        ideal.setBounds(240, 300, 50, 30);
 
         jLabel11.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Kg");
         getContentPane().add(jLabel11);
-        jLabel11.setBounds(330, 300, 20, 30);
+        jLabel11.setBounds(300, 300, 20, 30);
 
         keluar.setText("Keluar");
         keluar.addActionListener(new java.awt.event.ActionListener() {
@@ -123,26 +130,31 @@ public class CekIdealTubuh extends javax.swing.JFrame {
         berat.setBounds(150, 160, 50, 30);
 
         jLabel16.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Hasil    Diagnosa     Kesehatan");
         getContentPane().add(jLabel16);
         jLabel16.setBounds(120, 340, 160, 26);
 
         jLabel17.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Kg");
         getContentPane().add(jLabel17);
         jLabel17.setBounds(210, 160, 20, 30);
 
         jLabel18.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Nama");
         getContentPane().add(jLabel18);
         jLabel18.setBounds(60, 80, 40, 26);
 
         jLabel19.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("CEK     IDEAL    TUBUH");
         getContentPane().add(jLabel19);
         jLabel19.setBounds(130, 20, 130, 26);
 
         jLabel20.setFont(new java.awt.Font("Urdu Typesetting", 1, 14)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Berat Badan");
         getContentPane().add(jLabel20);
         jLabel20.setBounds(50, 160, 80, 26);
@@ -160,6 +172,10 @@ public class CekIdealTubuh extends javax.swing.JFrame {
         nama.setBounds(150, 80, 190, 30);
         getContentPane().add(hasil);
         hasil.setBounds(10, 380, 380, 30);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\timbersaw.jpg")); // NOI18N
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(-6, 0, 410, 480);
 
         setSize(new java.awt.Dimension(416, 523));
         setLocationRelativeTo(null);
@@ -235,6 +251,7 @@ public class CekIdealTubuh extends javax.swing.JFrame {
     private javax.swing.JTextField hasil;
     private javax.swing.JButton hitung;
     private javax.swing.JTextField ideal;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
